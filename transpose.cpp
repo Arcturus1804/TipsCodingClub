@@ -7,7 +7,7 @@ int main()
     cout << "Enter rows and columns of matrix:\n";
     int rows{}, columns{};
     cin >> rows >> columns;
-    int arr[rows][columns], transposed[columns][rows], temp = columns - 1;
+    int arr[rows][columns], transposed[columns][rows];
     cout << "Enter " << rows * columns << " elements:\n";
     for (i = 0; i < rows; i++)
         for (j = 0; j < columns; j++)
