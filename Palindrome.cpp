@@ -5,7 +5,6 @@ int main()
 {
     int x{};
     cin >> x;
-    palindrome(x);
     if (palindrome(x))
         cout << "True";
     else
