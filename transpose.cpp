@@ -22,7 +22,7 @@ int main()
     {
         for (j = 0; j < columns; j++)
         {
-            cout << arr[i][j]<<" ";
+            cout << arr[i][j]<<"\t";
             if (j == columns-1)
                 cout << endl;
         }
@@ -34,7 +34,7 @@ int main()
     {
         for (j = 0; j < rows; j++)
         {
-            cout << transposed[i][j]<<" ";
+            cout << transposed[i][j]<<"\t";
             if (j == rows-1)
                 cout << endl;
         }
