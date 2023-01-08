@@ -14,4 +14,5 @@ if(input==temp)
     cout<<"True";
 else    
     cout<<"False";
+    return 0;
 }
