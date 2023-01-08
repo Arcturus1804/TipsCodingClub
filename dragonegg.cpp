@@ -14,4 +14,5 @@ if(gold*goldc>=silver*silverc)
 cout<<"Gold";
 else
 cout<<"Silver";
+return 0;
 }
