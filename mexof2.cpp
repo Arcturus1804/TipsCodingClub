@@ -2,6 +2,7 @@
 using namespace std;
 
 int main(){int A{},B{},i=0;
+cout<<"Enter two non negative integers";
 cin>>A>>B;
 if(A==0&&B==0)
     cout<<"1";
